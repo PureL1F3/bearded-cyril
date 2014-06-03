@@ -21,8 +21,10 @@
 		BB5BBEAA193E2EA400DF95E6 /* VideoFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBEA9193E2EA400DF95E6 /* VideoFunTests.m */; };
 		BB5BBEB5193E2ED600DF95E6 /* BNRRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */; };
 		BB5BBEB7193E2EF000DF95E6 /* BNRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */; };
-		BB5BBEB9193E364C00DF95E6 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEB8193E364C00DF95E6 /* video.mp4 */; };
 		BB5BBEBB193E4DEC00DF95E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */; };
+		BB5BBEBD193E780A00DF95E6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBEBC193E780A00DF95E6 /* AssetsLibrary.framework */; };
+		BB5BBEBF193E784D00DF95E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBEBE193E784D00DF95E6 /* MobileCoreServices.framework */; };
+		BB5BBEC1193E844E00DF95E6 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEC0193E844E00DF95E6 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +57,10 @@
 		BB5BBEB3193E2ED600DF95E6 /* BNRRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRRecordViewController.h; sourceTree = "<group>"; };
 		BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRRecordViewController.m; sourceTree = "<group>"; };
 		BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRRecordViewController.xib; sourceTree = "<group>"; };
-		BB5BBEB8193E364C00DF95E6 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB5BBEBC193E780A00DF95E6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BB5BBEBE193E784D00DF95E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BB5BBEC0193E844E00DF95E6 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5BBEBF193E784D00DF95E6 /* MobileCoreServices.framework in Frameworks */,
+				BB5BBEBD193E780A00DF95E6 /* AssetsLibrary.framework in Frameworks */,
 				BB5BBEBB193E4DEC00DF95E6 /* AVFoundation.framework in Frameworks */,
 				BB5BBE87193E2EA400DF95E6 /* CoreGraphics.framework in Frameworks */,
 				BB5BBE89193E2EA400DF95E6 /* UIKit.framework in Frameworks */,
@@ -87,7 +93,7 @@
 		BB5BBE78193E2EA400DF95E6 = {
 			isa = PBXGroup;
 			children = (
-				BB5BBEB8193E364C00DF95E6 /* video.mp4 */,
+				BB5BBEC0193E844E00DF95E6 /* video.mp4 */,
 				BB5BBEB3193E2ED600DF95E6 /* BNRRecordViewController.h */,
 				BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */,
 				BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */,
@@ -110,6 +116,8 @@
 		BB5BBE83193E2EA400DF95E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB5BBEBE193E784D00DF95E6 /* MobileCoreServices.framework */,
+				BB5BBEBC193E780A00DF95E6 /* AssetsLibrary.framework */,
 				BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */,
 				BB5BBE84193E2EA400DF95E6 /* Foundation.framework */,
 				BB5BBE86193E2EA400DF95E6 /* CoreGraphics.framework */,
@@ -236,9 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB5BBE8F193E2EA400DF95E6 /* InfoPlist.strings in Resources */,
+				BB5BBEC1193E844E00DF95E6 /* video.mp4 in Resources */,
 				BB5BBEB7193E2EF000DF95E6 /* BNRRecordViewController.xib in Resources */,
 				BB5BBE97193E2EA400DF95E6 /* Images.xcassets in Resources */,
-				BB5BBEB9193E364C00DF95E6 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +464,7 @@
 				BB5BBEAF193E2EA400DF95E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5BBEB0193E2EA400DF95E6 /* Build configuration list for PBXNativeTarget "VideoFunTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				BB5BBEB2193E2EA400DF95E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

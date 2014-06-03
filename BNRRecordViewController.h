@@ -21,6 +21,8 @@
 @property (weak, nonatomic) IBOutlet UIView *videoView;
 @property (weak, nonatomic) IBOutlet UIView *camView;
 @property (weak, nonatomic) IBOutlet UIView *playbackView;
+@property (weak, nonatomic) IBOutlet UIView *playbackVideoView;
+
 
 @property (weak, nonatomic) IBOutlet UIButton *recordButton;
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
@@ -29,9 +31,12 @@
 
 @property (weak, nonatomic) AVPlayer *videoPlayer;
 @property (weak, nonatomic) AVPlayer *playbackPlayer;
+@property (weak, nonatomic) AVPlayer *playbackVideoPlayer;
 
 @property (strong, nonatomic) AVCaptureSession *session;
 @property (strong, nonatomic) AVCaptureMovieFileOutput *captureVideoOutput;
 
 @property (strong, nonatomic) NSString *videoPath;
+
+
 @end

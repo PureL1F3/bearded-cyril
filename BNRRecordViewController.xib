@@ -9,6 +9,7 @@
                 <outlet property="camView" destination="lXF-Zv-kdV" id="jtg-eR-82n"/>
                 <outlet property="contentView" destination="lkS-Xw-M9e" id="lTD-Zh-2xz"/>
                 <outlet property="playButton" destination="3Cs-Sm-1pn" id="mYO-fb-DI8"/>
+                <outlet property="playbackVideoView" destination="QnZ-4y-6fP" id="Jw6-cN-pWA"/>
                 <outlet property="playbackView" destination="Z0Y-yA-5ux" id="Aad-9Q-P1e"/>
                 <outlet property="recordButton" destination="lAt-o1-Lg1" id="qMA-aG-alz"/>
                 <outlet property="scrollView" destination="J8t-iv-UjU" id="C8n-3Q-Cjb"/>
@@ -32,6 +33,11 @@
             <subviews>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5w9-Wu-gD0">
                     <rect key="frame" x="4" y="0.0" width="310" height="187"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnZ-4y-6fP">
+                    <rect key="frame" x="3" y="454" width="310" height="187"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </view>

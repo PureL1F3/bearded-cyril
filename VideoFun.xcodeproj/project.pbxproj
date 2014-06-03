@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5BBE85193E2EA400DF95E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE84193E2EA400DF95E6 /* Foundation.framework */; };
+		BB5BBE87193E2EA400DF95E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE86193E2EA400DF95E6 /* CoreGraphics.framework */; };
+		BB5BBE89193E2EA400DF95E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE88193E2EA400DF95E6 /* UIKit.framework */; };
+		BB5BBE8F193E2EA400DF95E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBE8D193E2EA400DF95E6 /* InfoPlist.strings */; };
+		BB5BBE91193E2EA400DF95E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBE90193E2EA400DF95E6 /* main.m */; };
+		BB5BBE95193E2EA400DF95E6 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBE94193E2EA400DF95E6 /* BNRAppDelegate.m */; };
+		BB5BBE97193E2EA400DF95E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBE96193E2EA400DF95E6 /* Images.xcassets */; };
+		BB5BBE9E193E2EA400DF95E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE9D193E2EA400DF95E6 /* XCTest.framework */; };
+		BB5BBE9F193E2EA400DF95E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE84193E2EA400DF95E6 /* Foundation.framework */; };
+		BB5BBEA0193E2EA400DF95E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBE88193E2EA400DF95E6 /* UIKit.framework */; };
+		BB5BBEA8193E2EA400DF95E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEA6193E2EA400DF95E6 /* InfoPlist.strings */; };
+		BB5BBEAA193E2EA400DF95E6 /* VideoFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBEA9193E2EA400DF95E6 /* VideoFunTests.m */; };
+		BB5BBEB5193E2ED600DF95E6 /* BNRRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */; };
+		BB5BBEB7193E2EF000DF95E6 /* BNRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */; };
+		BB5BBEB9193E364C00DF95E6 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB5BBEB8193E364C00DF95E6 /* video.mp4 */; };
+		BB5BBEBB193E4DEC00DF95E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5BBEA1193E2EA400DF95E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5BBE79193E2EA400DF95E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5BBE80193E2EA400DF95E6;
+			remoteInfo = VideoFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5BBE81193E2EA400DF95E6 /* VideoFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5BBE84193E2EA400DF95E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB5BBE86193E2EA400DF95E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB5BBE88193E2EA400DF95E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB5BBE8C193E2EA400DF95E6 /* VideoFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoFun-Info.plist"; sourceTree = "<group>"; };
+		BB5BBE8E193E2EA400DF95E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5BBE90193E2EA400DF95E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB5BBE92193E2EA400DF95E6 /* VideoFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoFun-Prefix.pch"; sourceTree = "<group>"; };
+		BB5BBE93193E2EA400DF95E6 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		BB5BBE94193E2EA400DF95E6 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		BB5BBE96193E2EA400DF95E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB5BBE9C193E2EA400DF95E6 /* VideoFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5BBE9D193E2EA400DF95E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB5BBEA5193E2EA400DF95E6 /* VideoFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoFunTests-Info.plist"; sourceTree = "<group>"; };
+		BB5BBEA7193E2EA400DF95E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5BBEA9193E2EA400DF95E6 /* VideoFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFunTests.m; sourceTree = "<group>"; };
+		BB5BBEB3193E2ED600DF95E6 /* BNRRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRRecordViewController.h; sourceTree = "<group>"; };
+		BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRRecordViewController.m; sourceTree = "<group>"; };
+		BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRRecordViewController.xib; sourceTree = "<group>"; };
+		BB5BBEB8193E364C00DF95E6 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5BBE7E193E2EA400DF95E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBEBB193E4DEC00DF95E6 /* AVFoundation.framework in Frameworks */,
+				BB5BBE87193E2EA400DF95E6 /* CoreGraphics.framework in Frameworks */,
+				BB5BBE89193E2EA400DF95E6 /* UIKit.framework in Frameworks */,
+				BB5BBE85193E2EA400DF95E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5BBE99193E2EA400DF95E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBE9E193E2EA400DF95E6 /* XCTest.framework in Frameworks */,
+				BB5BBEA0193E2EA400DF95E6 /* UIKit.framework in Frameworks */,
+				BB5BBE9F193E2EA400DF95E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5BBE78193E2EA400DF95E6 = {
+			isa = PBXGroup;
+			children = (
+				BB5BBEB8193E364C00DF95E6 /* video.mp4 */,
+				BB5BBEB3193E2ED600DF95E6 /* BNRRecordViewController.h */,
+				BB5BBEB4193E2ED600DF95E6 /* BNRRecordViewController.m */,
+				BB5BBEB6193E2EF000DF95E6 /* BNRRecordViewController.xib */,
+				BB5BBE8A193E2EA400DF95E6 /* VideoFun */,
+				BB5BBEA3193E2EA400DF95E6 /* VideoFunTests */,
+				BB5BBE83193E2EA400DF95E6 /* Frameworks */,
+				BB5BBE82193E2EA400DF95E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5BBE82193E2EA400DF95E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBE81193E2EA400DF95E6 /* VideoFun.app */,
+				BB5BBE9C193E2EA400DF95E6 /* VideoFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5BBE83193E2EA400DF95E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBEBA193E4DEC00DF95E6 /* AVFoundation.framework */,
+				BB5BBE84193E2EA400DF95E6 /* Foundation.framework */,
+				BB5BBE86193E2EA400DF95E6 /* CoreGraphics.framework */,
+				BB5BBE88193E2EA400DF95E6 /* UIKit.framework */,
+				BB5BBE9D193E2EA400DF95E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5BBE8A193E2EA400DF95E6 /* VideoFun */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBE93193E2EA400DF95E6 /* BNRAppDelegate.h */,
+				BB5BBE94193E2EA400DF95E6 /* BNRAppDelegate.m */,
+				BB5BBE96193E2EA400DF95E6 /* Images.xcassets */,
+				BB5BBE8B193E2EA400DF95E6 /* Supporting Files */,
+			);
+			path = VideoFun;
+			sourceTree = "<group>";
+		};
+		BB5BBE8B193E2EA400DF95E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBE8C193E2EA400DF95E6 /* VideoFun-Info.plist */,
+				BB5BBE8D193E2EA400DF95E6 /* InfoPlist.strings */,
+				BB5BBE90193E2EA400DF95E6 /* main.m */,
+				BB5BBE92193E2EA400DF95E6 /* VideoFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB5BBEA3193E2EA400DF95E6 /* VideoFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBEA9193E2EA400DF95E6 /* VideoFunTests.m */,
+				BB5BBEA4193E2EA400DF95E6 /* Supporting Files */,
+			);
+			path = VideoFunTests;
+			sourceTree = "<group>";
+		};
+		BB5BBEA4193E2EA400DF95E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5BBEA5193E2EA400DF95E6 /* VideoFunTests-Info.plist */,
+				BB5BBEA6193E2EA400DF95E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5BBE80193E2EA400DF95E6 /* VideoFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5BBEAD193E2EA400DF95E6 /* Build configuration list for PBXNativeTarget "VideoFun" */;
+			buildPhases = (
+				BB5BBE7D193E2EA400DF95E6 /* Sources */,
+				BB5BBE7E193E2EA400DF95E6 /* Frameworks */,
+				BB5BBE7F193E2EA400DF95E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoFun;
+			productName = VideoFun;
+			productReference = BB5BBE81193E2EA400DF95E6 /* VideoFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5BBE9B193E2EA400DF95E6 /* VideoFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5BBEB0193E2EA400DF95E6 /* Build configuration list for PBXNativeTarget "VideoFunTests" */;
+			buildPhases = (
+				BB5BBE98193E2EA400DF95E6 /* Sources */,
+				BB5BBE99193E2EA400DF95E6 /* Frameworks */,
+				BB5BBE9A193E2EA400DF95E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5BBEA2193E2EA400DF95E6 /* PBXTargetDependency */,
+			);
+			name = VideoFunTests;
+			productName = VideoFunTests;
+			productReference = BB5BBE9C193E2EA400DF95E6 /* VideoFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5BBE79193E2EA400DF95E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BabyJeff;
+				TargetAttributes = {
+					BB5BBE9B193E2EA400DF95E6 = {
+						TestTargetID = BB5BBE80193E2EA400DF95E6;
+					};
+				};
+			};
+			buildConfigurationList = BB5BBE7C193E2EA400DF95E6 /* Build configuration list for PBXProject "VideoFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB5BBE78193E2EA400DF95E6;
+			productRefGroup = BB5BBE82193E2EA400DF95E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5BBE80193E2EA400DF95E6 /* VideoFun */,
+				BB5BBE9B193E2EA400DF95E6 /* VideoFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5BBE7F193E2EA400DF95E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBE8F193E2EA400DF95E6 /* InfoPlist.strings in Resources */,
+				BB5BBEB7193E2EF000DF95E6 /* BNRRecordViewController.xib in Resources */,
+				BB5BBE97193E2EA400DF95E6 /* Images.xcassets in Resources */,
+				BB5BBEB9193E364C00DF95E6 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5BBE9A193E2EA400DF95E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBEA8193E2EA400DF95E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5BBE7D193E2EA400DF95E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBEB5193E2ED600DF95E6 /* BNRRecordViewController.m in Sources */,
+				BB5BBE91193E2EA400DF95E6 /* main.m in Sources */,
+				BB5BBE95193E2EA400DF95E6 /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5BBE98193E2EA400DF95E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5BBEAA193E2EA400DF95E6 /* VideoFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5BBEA2193E2EA400DF95E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5BBE80193E2EA400DF95E6 /* VideoFun */;
+			targetProxy = BB5BBEA1193E2EA400DF95E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB5BBE8D193E2EA400DF95E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5BBE8E193E2EA400DF95E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB5BBEA6193E2EA400DF95E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5BBEA7193E2EA400DF95E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5BBEAB193E2EA400DF95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB5BBEAC193E2EA400DF95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5BBEAE193E2EA400DF95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoFun/VideoFun-Prefix.pch";
+				INFOPLIST_FILE = "VideoFun/VideoFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB5BBEAF193E2EA400DF95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoFun/VideoFun-Prefix.pch";
+				INFOPLIST_FILE = "VideoFun/VideoFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB5BBEB1193E2EA400DF95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoFun.app/VideoFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoFun/VideoFun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VideoFunTests/VideoFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB5BBEB2193E2EA400DF95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoFun.app/VideoFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoFun/VideoFun-Prefix.pch";
+				INFOPLIST_FILE = "VideoFunTests/VideoFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5BBE7C193E2EA400DF95E6 /* Build configuration list for PBXProject "VideoFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5BBEAB193E2EA400DF95E6 /* Debug */,
+				BB5BBEAC193E2EA400DF95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5BBEAD193E2EA400DF95E6 /* Build configuration list for PBXNativeTarget "VideoFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5BBEAE193E2EA400DF95E6 /* Debug */,
+				BB5BBEAF193E2EA400DF95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB5BBEB0193E2EA400DF95E6 /* Build configuration list for PBXNativeTarget "VideoFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5BBEB1193E2EA400DF95E6 /* Debug */,
+				BB5BBEB2193E2EA400DF95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5BBE79193E2EA400DF95E6 /* Project object */;
+}
